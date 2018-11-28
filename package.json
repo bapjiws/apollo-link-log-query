@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/bapjiws/apollo-link-log-query/issues"
   },
-  "homepage": "https://github.com/bapjiws/apollo-link-log-query#readme"
+  "homepage": "https://github.com/bapjiws/apollo-link-log-query#readme",
+  "dependencies": {
+    "apollo-link": "^1.2.4",
+    "graphql": "^14.0.2"
+  }
 }
