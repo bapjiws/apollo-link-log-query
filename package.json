@@ -1,0 +1,19 @@
+{
+  "name": "apollo-link-log-query",
+  "version": "1.0.0",
+  "description": "Custom Apollo link for logging queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bapjiws/apollo-link-log-query.git"
+  },
+  "author": "Alex Boklin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bapjiws/apollo-link-log-query/issues"
+  },
+  "homepage": "https://github.com/bapjiws/apollo-link-log-query#readme"
+}
