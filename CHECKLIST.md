@@ -1,3 +1,3 @@
-- `main` field in package.json
-- `prepublish(Only)` script
-- `.npmignore`
+- [ ] `main` field in package.json
+- [ ] `prepublish(Only)` script
+- [ ] `.npmignore`
