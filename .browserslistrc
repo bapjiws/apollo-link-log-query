@@ -1,0 +1,4 @@
+# Settings taken from https://github.com/browserslist/browserslist#best-practices.
+last 1 version
+not dead
+> 0.2%
