@@ -7,6 +7,7 @@
     "build": "babel src --out-dir lib",
     "clean": "rimraf lib/*",
     "dev": "watch 'npm run build' src",
+    "packageContents": "npm pack --dry-run",
     "prepublishOnly": "npm run clean && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
