@@ -1,9 +1,4 @@
----
-title: apollo-link-log-query
-description: Log GraphQL queries.
----
-
-This link allows to log (selected) GraphQL queries for debugging purposes.
+This link allows to log GraphQL queries for debugging purposes.
 
 <h2 id="installation">Installation</h2>
 
