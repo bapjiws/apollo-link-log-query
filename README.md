@@ -51,5 +51,5 @@ client.query({query: gql`
     - [ ] see `tsconfig.json` [here](https://blogs.msdn.microsoft.com/typescript/2018/08/27/typescript-and-babel-7/#) and [here](https://iamturns.com/typescript-babel/)
 - [ ] write tests (see [tests for apollo-link-http](https://github.com/apollographql/apollo-link/tree/master/packages/apollo-link-http/src/__tests__) and [this article on mocking](https://hackernoon.com/extensive-graphql-testing-57e8760f1c25))
 - [x] double-check the `main` field in package.json
-- [ ] set up the `prepublish(Only)` script
-- [ ] add `.npmignore`
+- [x] set up the `prepublish(Only)` script
+- [x] add `.npmignore`
