@@ -1,6 +1,7 @@
 # apollo-link-log-query
 
 # CHECKLIST
+- [ ] update README with a descripton and an example of usage
 - [ ] set up compilation with Babel 7
     - [x] use [babel-preset-env](https://babeljs.io/docs/en/babel-preset-env/)
     - [x] set [browserslist](https://babeljs.io/docs/en/babel-preset-env/#browserslist-integration) according to [best practices](https://github.com/browserslist/browserslist#best-practices)
