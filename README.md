@@ -19,11 +19,9 @@ import gql from 'graphql-tag';
 import fetch from 'node-fetch';
 import { consoleLink } from 'apollo-link-log-query';
 
-const cache = new InMemoryCache();
-
 const client = new ApolloClient({
   link: ApolloLink.from([consoleLink, new HttpLink({uri: 'https://fakerql.com/graphql', fetch})]),
-  cache
+  cache: new InMemoryCache()
 });
 
 client.query({query: gql`
