@@ -8,7 +8,7 @@ npm install apollo-link-log-query
 
 <h2 id="usage">Usage</h2>
 
-Import and [compose](https://www.apollographql.com/docs/link/composition.html) with other links using `ApolloLink.from`. On the server side, go:
+Import and [compose](https://www.apollographql.com/docs/link/composition.html) with other links using `ApolloLink.from`. On the server side, go like this:
 
 ```js
 import { ApolloClient } from 'apollo-client';
