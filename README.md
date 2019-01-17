@@ -1,4 +1,4 @@
-This link allows to log GraphQL queries for debugging purposes. So far is has been tested on the server side using a [repo](https://github.com/bapjiws/apollo-playground-for-fakerql) talking to https://fakerql.com/. Client-side tests and local tests are to come.
+This link allows to log GraphQL queries for debugging purposes. So far is has been tested on the server side using a [repo](https://github.com/bapjiws/apollo-playground-for-fakerql) talking to https://fakerql.com/. Ensuring client-side support and local tests are to come.
 
 <h2 id="installation">Installation</h2>
 
@@ -8,7 +8,7 @@ npm install apollo-link-log-query
 
 <h2 id="usage">Usage</h2>
 
-Import and [compose](https://www.apollographql.com/docs/link/composition.html) with other links using `ApolloLink.from`:
+Import and [compose](https://www.apollographql.com/docs/link/composition.html) with other links using `ApolloLink.from`. On the server side, go:
 
 ```js
 import { ApolloClient } from 'apollo-client';
@@ -25,6 +25,18 @@ const client = new ApolloClient({
   link: ApolloLink.from([consoleLink, new HttpLink({uri: 'https://fakerql.com/graphql', fetch})]),
   cache
 });
+
+client.query({query: gql`
+  query Users {
+	allUsers(count: 1) {
+	  id
+	  firstName
+	  lastName
+	}
+  }
+`})
+  .then(data => console.log(data))
+  .catch(error => console.error(error));
 ```
 
 # CHECKLIST
