@@ -1,4 +1,4 @@
-This link allows to log GraphQL queries for debugging purposes. So far is has been tested on the server side using a [repo](https://github.com/bapjiws/apollo-playground-for-fakerql) talking to https://fakerql.com/. Ensuring client-side support and local tests are to come.
+This link allows to log GraphQL queries for debugging purposes. So far it has been tested on the server side using a [repo](https://github.com/bapjiws/apollo-playground-for-fakerql) talking to https://fakerql.com/. Ensuring client-side support and local tests are to come.
 
 <h2 id="installation">Installation</h2>
 
