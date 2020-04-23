@@ -98,7 +98,8 @@ const App = () => (
 render(<App />, document.getElementById("root"));
 ```
 
-# CHECKLIST
+<h2 id="checklist">CHECKLIST</h2>
+
 - [x] update README with a descripton, installation instructions, and an example of usage
 - [x] set up compilation with Babel 7
     - [x] use [babel-preset-env](https://babeljs.io/docs/en/babel-preset-env/)
